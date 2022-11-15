@@ -235,6 +235,10 @@ GameObject:
   - component: {fileID: 912113751}
   - component: {fileID: 912113752}
   - component: {fileID: 912113753}
+  - component: {fileID: 912113757}
+  - component: {fileID: 912113756}
+  - component: {fileID: 912113755}
+  - component: {fileID: 912113754}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -406,6 +410,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   days: -1
+--- !u!114 &912113754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912113742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67bcf74b6641f6547a9fba3ed204fe68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mult: 2
+--- !u!114 &912113755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912113742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2b8295ad23e664ba65072bae4cdb0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  candy: 10
+  people: 6
+--- !u!114 &912113756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912113742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40369b996fc49045be810f1aa5fc9a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  month: june
+--- !u!114 &912113757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912113742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e830746fe9a097e4baf5c80581d57582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letter: a
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

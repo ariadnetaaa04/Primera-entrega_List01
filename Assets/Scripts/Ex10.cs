@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class Ex10 : MonoBehaviour
 {
-    public int num;
-    public int x;
+    public int mult = 2;
+    //variable to make de loop
+    private int i;
+    private int result;
     // Start is called before the first frame update
     void Start()
     {
-        for x=1 to 10 
+        //this calls de loop till the variable is equal that 10
+        for (int i = 0; i <= 10; i++)
+        {
+             result = mult * i;
+            Debug.Log($"{mult} * {i} = {result}");
+        }
     }
 
     // Update is called once per frame

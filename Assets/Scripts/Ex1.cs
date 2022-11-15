@@ -12,8 +12,11 @@ public class Ex1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     result = x + y + z;
-        Debug.Log($"{x} + {y} + {z}= {result}");   
+     result = x + y + z; 
+     {
+        Debug.Log($"{x} + {y} + {z}= {result}"); 
+     }
+          
     }
 
     // Update is called once per frame

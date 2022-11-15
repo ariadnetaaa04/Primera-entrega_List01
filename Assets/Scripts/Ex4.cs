@@ -11,7 +11,10 @@ public class Ex4 : MonoBehaviour
     void Start()
     {
         age = currentYear - birthYear;
-    Debug.Log($"If we are in the year {currentYear} and you were born in {birthYear}, you are {age} years old");
+        {
+            Debug.Log($"If we are in the year {currentYear} and you were born in {birthYear}, you are {age} years old");
+        }
+    
     }
 
     // Update is called once per frame

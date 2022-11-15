@@ -8,11 +8,12 @@ public class Ex6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       if (days > 1 && days < 6){
-       
+       if (days > 1 && days < 6)
+       {
             Debug.Log($"Day {days} does not belong to the weekend");
        }
-        else if (days <1 || days > 7){
+        else if (days <1 || days > 7)
+        {
             Debug.Log($"Enter a valid day between 1-7 ");
         }
         else

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Ex2 : MonoBehaviour
 {
-    public string name = "";
-    public string city = "";
+    public string name;
+    public string city;
 
     // Start is called before the first frame update
     void Start()
